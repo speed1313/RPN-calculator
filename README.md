@@ -1,25 +1,27 @@
 # Reverse Pollish Notation Calculator
 
+## Overview
+This is RPN calculator in Rust.
+I made it by referring to a book, [rustプログラミング入門](https://www.shuwasystem.co.jp/book/9784798061702.html).
 ## How to run
 1. Clone this repo.
 
 ```
 $ git clone git@github.com:speed1313/RPN-calculator
-$ 
+$ cd RPN-calculator
 ```
 
-2. Build the project.
+2.  Make this calculator executable in any path
 
 ```
-$ make ycc
+$ cargo install --path .
 ```
 
-3. Test(test result will be shown).
+3. use this calculator
 
 ```
-$ make test
-```
-
-4. Compile and run C source code.
-
+$ rpncalc
+1 1 +
+2 2 *
+2 3 / 3 +
 ```
